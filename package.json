@@ -10,7 +10,7 @@
     "postinstall": "npm run installWPHC",
     "installWPHC": "cd scripts && node ./install.js",
     "increaseVersion": "cd scripts && node ./increaseVersion.js",
-    "start": "webpack-dev-server --port 8080 --json --progress",
+    "start": "webpack-dev-server --port 18080 --json --progress",
     "devserver": "npm start",
     "dumpdev": "rm -rf www/* && webpack --progress --colors -d",
     "dumpprod": "rm -rf www/* && webpack --progress --colors --config webpack.config.prod.js -p",
